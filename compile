@@ -1,0 +1,4 @@
+echo "s optimization"
+#gcc main.c -o arena_test.exe -s -fno-ident -fno-asynchronous-unwind-tables -ffreestanding -nostdlib -Xlinker -nostdlib -lkernel32 -nostartfiles
+gcc main.c -o arena_test.exe -s -fno-ident -fno-asynchronous-unwind-tables
+./arena_test.exe
